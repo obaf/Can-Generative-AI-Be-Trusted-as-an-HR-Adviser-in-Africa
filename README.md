@@ -16,7 +16,7 @@ This repository contains the complete, runnable pipeline behind the study *"Can 
 4. **Mechanism, not only magnitude.** The analysis classifies the *direction* of every error: overstating or understating a protection or an entitlement. It also tests for *default substitution*, for example answering a pension age of 60 or 65, or the ILO's 14- or 12-week maternity leave, when national law differs. This underpins an institutional–epistemic account of why models fail where legal information is scarce.
 5. **A language experiment.** The same questions are asked in each country's legal language (French, Arabic, Portuguese or Spanish), using grammatically correct country forms, and compared with paired exact McNemar tests. This separates a *language-interface* problem from a *knowledge* problem.
 6. **Robustness and a ground-truth audit.** Six robustness specifications test sub-national rows, federal economies, lenient tolerances, abstentions, WBL-only items and binary-only items. Separately, a purposive audit of confident consensus errors against primary legal sources checks the answer key itself.
-7. **Built to be reproduced cheaply.** The pipeline uses one API interface (OpenRouter) and a hard budget guard with spending ledgers. Runs are resumable, use temperature 0 and a fixed seed, and store every raw response. The whole benchmark costs about US$2.70 in API fees. Every number in the manuscript is inserted by code from the results files, so no result is typed by hand.
+
 
 ---
 
